@@ -1,0 +1,36 @@
+/* RESET CSS*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  height: 679px;
+  width: 430px;
+  text-align: center;
+  margin: 0 auto;
+  display: table;
+}
+
+.astronaut_img {
+  width: 36.4rem;
+  height: auto;
+  padding-top: 0px 3.3rem 0px 3.3rem;
+}
+
+h1 {
+  padding: 1.6rem 6rem;
+  color: #B52184;
+}
+
+p {
+  color: #312D64;
+  padding: 0px;
+}
+
+.downArrow {
+  width: 6rem;
+  height: auto;
+  margin: 36px 186px 93px 186px;
+}
