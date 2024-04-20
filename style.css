@@ -10,27 +10,34 @@
   font-family: 'Mulish', sans-serif;
 }
 
+body {
+  color: #F9F4FB;
+  max-width: 430px;
+  margin: 0 auto;
+  /*GPT - modificações
+  max-width: 430px;  Definindo a largura máxima para toda a página 
+  margin: 0 auto; /* Centralizando a página na tela */
+}
+
 /* CONFIGURAÇÃO DE POSICIONAMENTO */
 header {
   height: 679px;
-  width: 430px;
   text-align: center;
-  margin: 0 auto;
   display: table;
 }
 
 /* CONFIGURAÇÃO DA IMAGEM DO ASTRONAUTA */
 .astronaut_img {
-  width: 36.4rem;
+  width: 364px;
   height: auto;
-  padding: 0px 3.3rem;
+  padding: 0px 33px;
 }
 
 /* CONFIGURAÇÃO DO TÍTULO */
 h1 {
-  padding: 1.6rem 6rem;
+  padding-top: 16px;
   color: #B52184;
-  font-size: 3.2rem;
+  font-size: 32px;
   font-weight: 900;
   line-height: normal;
 }
@@ -38,15 +45,64 @@ h1 {
 /* CONFIGURAÇÃO DO PARÁGRAFO */
 p {
   color: #312D64;
-  padding: 0px;
-  font-size: 2rem;
+  padding-top: 5px;
+  font-size: 20px;
   font-weight: 600;
   line-height: normal;
 }
 
 /* CONFIGURAÇÃO DE POSICIONAMENTO DA SETA */
 .downArrow {
-  width: 6rem;
+  width: 60px;
   height: auto;
-  margin: 36px 186px 93px 186px;
+  margin: 36px 186px 94px 186px;
+}
+
+/* CONFIGURAÇÃO DA MAIN */
+main {
+  background-color: #343193;
+  /* GPT - modificações 
+  padding: 0 20px; /* Adicionando padding para espaçamento nas laterais */
+}
+
+/* CONFIGURAÇÃO DO CONTEÚDO DA MAIN*/
+.card-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  padding: 52px 40px 56px;
+  /*GPT - modificações
+  padding: 52px 0 56px; /* Ajustando o padding para tamanhos de tela menores */
+  gap: 50px;
+}
+
+.card {
+  padding: 26px 60px 26px 26px;
+  /*GPT - modificações
+  padding: 26px;*/
+  border-radius: 20px;
+  background-color: #F9F4FB;
+  width: 352px;
+  /*GPT - modificações
+  max-width: 352px; /* Largura máxima do card 
+  margin: 0 auto;  Centralizando o card na página */
+
+}
+
+.card img {
+  height:80px;
+  width: 80px;
+  margin: 0px 245px 33px 0px;
+}
+
+.card h2 {
+  font-weight: 900;
+  font-size: 30px;
+  color: #B52184;
+  padding-bottom: 20px;
+}
+
+.card p {
+  font-weight: 600;
+  font-size: 16px;
+  color: #312D64;
 }
