@@ -5,6 +5,10 @@
   box-sizing: border-box;
 }
 
+:root {
+  font-family: 'Mulish', sans-serif;
+}
+
 header {
   height: 679px;
   width: 430px;
@@ -16,17 +20,23 @@ header {
 .astronaut_img {
   width: 36.4rem;
   height: auto;
-  padding-top: 0px 3.3rem 0px 3.3rem;
+  padding: 0px 3.3rem;
 }
 
 h1 {
   padding: 1.6rem 6rem;
   color: #B52184;
+  font-size: 3.2rem;
+  font-weight: 900;
+  line-height: normal;
 }
 
 p {
   color: #312D64;
   padding: 0px;
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: normal;
 }
 
 .downArrow {
