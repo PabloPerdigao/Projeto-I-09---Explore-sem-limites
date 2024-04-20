@@ -11,7 +11,7 @@
 }
 
 body {
-  color: #F9F4FB;
+  background-color: #F9F4FB;
   max-width: 430px;
   margin: 0 auto;
   /*GPT - modificações
@@ -75,6 +75,7 @@ main {
   gap: 50px;
 }
 
+/* CONFIGURAÇÃO DOS CARDS */
 .card {
   padding: 26px 60px 26px 26px;
   /*GPT - modificações
@@ -88,12 +89,14 @@ main {
 
 }
 
+/* CONFIGURAÇÃO DAS IMAGENS | CARDS */
 .card img {
   height:80px;
   width: 80px;
   margin: 0px 245px 33px 0px;
 }
 
+/* CONFIGURAÇÃO DOS TÍTULOS | CARDS */
 .card h2 {
   font-weight: 900;
   font-size: 30px;
@@ -101,8 +104,102 @@ main {
   padding-bottom: 20px;
 }
 
-.card p {
+/* CONFIGURAÇÃO DOS PARAGRAFOS | CARDS */
+.card p, 
+.input-wrapper-name ::placeholder,
+.input-wrapper-email ::placeholder,
+.input-wrapper-textarea ::placeholder {
   font-weight: 600;
   font-size: 16px;
   color: #312D64;
 }
+
+/* CONFIGURAÇÃO DO FORMS */
+fieldset {
+  border: none;
+  max-height: 565vh;
+  padding: 78px 40px 65px 40px;
+}
+
+/* CONFIGURAÇÃO DO TÍTULO | FORMS */
+.fieldset-wrapper {
+  font-weight: 900;
+  font-size: 30px;
+  color: #B52184;
+  margin-bottom: 43px;
+}
+
+input, textarea {
+  all: unset;
+}
+
+/* CONFIGURAÇÃO DO INPUT-NAME | FORMS */
+.input-wrapper-name {
+  margin-bottom: 24px;
+
+  height: 48px;
+  width: 348px;
+
+  border: 1px solid #312D64;
+  border-radius: 16px;
+
+  flex: 1;
+  display: flex;
+  
+  padding: 12px 16px;
+  gap: 12px;
+}
+
+.input-wrapper-email {
+  height: 48px;
+  width: 348px;
+
+  border: 1px solid #312D64;
+  border-radius: 16px;
+  
+  flex: 1;
+  display: flex;
+
+  padding: 12px 16px;
+  gap: 12px;  
+}
+
+/* CONFIGURAÇÃO DO INPUT-TEXTAREA | FORMS */
+.input-wrapper-textarea {
+  margin-top: 24px;
+
+  height: 126px;
+  width: 348px;
+
+  border: 1px solid #312D64;
+  border-radius: 16px;
+
+  flex: 1;
+  display: flex;
+
+  padding: 12px 16px;
+  gap: 12px;
+}
+
+button {
+  margin-top: 24px;
+  background-color: #343193;
+  color: #ffffff;
+  border-radius: 16px;
+  padding: 16px;
+  font-size: 14px;
+  font-weight: 900;
+  border: none;
+}
+
+footer P {
+  height: 78px;
+  font-size: 20px;
+  font-weight: 600;
+  color: #ffffff;
+  background-color: #343193;
+  text-align: center;
+  padding: 32px 16px;
+ 
+}
+
