@@ -5,10 +5,12 @@
   box-sizing: border-box;
 }
 
+/* cONFIGURAÇÃO DA FONTE */
 :root {
   font-family: 'Mulish', sans-serif;
 }
 
+/* CONFIGURAÇÃO DE POSICIONAMENTO */
 header {
   height: 679px;
   width: 430px;
@@ -17,12 +19,14 @@ header {
   display: table;
 }
 
+/* CONFIGURAÇÃO DA IMAGEM DO ASTRONAUTA */
 .astronaut_img {
   width: 36.4rem;
   height: auto;
   padding: 0px 3.3rem;
 }
 
+/* CONFIGURAÇÃO DO TÍTULO */
 h1 {
   padding: 1.6rem 6rem;
   color: #B52184;
@@ -31,6 +35,7 @@ h1 {
   line-height: normal;
 }
 
+/* CONFIGURAÇÃO DO PARÁGRAFO */
 p {
   color: #312D64;
   padding: 0px;
@@ -39,6 +44,7 @@ p {
   line-height: normal;
 }
 
+/* CONFIGURAÇÃO DE POSICIONAMENTO DA SETA */
 .downArrow {
   width: 6rem;
   height: auto;
