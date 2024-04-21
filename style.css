@@ -150,6 +150,7 @@ input, textarea {
   gap: 12px;
 }
 
+/* CONFIGURAÇÃO DO INPUT-EMAIL| FORMS */
 .input-wrapper-email {
   height: 48px;
   width: 348px;
@@ -181,6 +182,7 @@ input, textarea {
   gap: 12px;
 }
 
+/* CONFIGURAÇÃO DO BOTÃO | FORMS */
 button {
   margin-top: 24px;
   background-color: #343193;
@@ -192,6 +194,9 @@ button {
   border: none;
 }
 
+/* CONFIGURAÇÃO DO RODAPÉ 
+
+*/
 footer P {
   height: 78px;
   font-size: 20px;
