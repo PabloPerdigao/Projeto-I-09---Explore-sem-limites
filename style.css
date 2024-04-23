@@ -103,8 +103,7 @@ main {
   width: 80px;
   margin: 0px 245px 33px 0px;
   filter: contrast(100%) saturate(115%);
-  --delay: .4s;
-  animation: appear .10s  backwards;
+  
 }
 
 /* CONFIGURAÇÃO DOS TÍTULOS | CARDS */
