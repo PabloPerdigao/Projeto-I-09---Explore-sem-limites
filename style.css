@@ -28,14 +28,14 @@ body {
 
 /* CONFIGURAÇÃO DE POSICIONAMENTO */
 header {
-  height: 679px;
+  height: 67.9rem;
   text-align: center;
   display: table;
 }
 
 /* CONFIGURAÇÃO DA IMAGEM DO ASTRONAUTA */
 .astronaut_img {
-  width: 364px;
+  width: 36.4rem;
   height: auto;
   padding: 0px 33px;
 }
@@ -276,5 +276,48 @@ footer P {
   }
   50% {
     border-color: orange;
+  }
+}
+
+/* MEDIA QUERIES */
+@media (min-width: 1024px) {
+
+  /* CONFIGURAÇÃO DE POSICIONAMENTO */
+  header {
+    height: 83.6rem;
+    display: flex;
+  }
+
+  /* CONFIGURAÇÃO DA IMAGEM DO ASTRONAUTA */
+  .astronaut_img {
+    width: 73.2rem;
+    height: auto;
+    margin: 0px 30px 0px 0px;
+  }
+
+  /* CONFIGURAÇÃO DO TÍTULO */
+  h1 {
+    padding-top: 312px;
+    font-size: 58px;
+    line-height: normal;
+    position: relative;
+
+    height: 73px;
+    width: 554px;
+  }
+
+  /* CONFIGURAÇÃO DO PARÁGRAFO */
+  p {
+    font-size: 32px;
+
+    height: 23px;
+    width: 530px;
+  }
+
+  /* CONFIGURAÇÃO DE POSICIONAMENTO DA SETA */
+  .downArrow {
+    width: 58px;
+    height: 105px;
+    margin: 180px 523px 136px 109px;
   }
 }
