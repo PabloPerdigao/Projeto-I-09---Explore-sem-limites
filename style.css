@@ -19,29 +19,25 @@
 
 body {
   background-color: var(--color-base-bg);
-  max-width: 430px;
+  width: auto;
   margin: 0 auto;
-  /*GPT - modificações
-  max-width: 430px;  Definindo a largura máxima para toda a página 
-  margin: 0 auto; /* Centralizando a página na tela */
 }
 
 /* CONFIGURAÇÃO DE POSICIONAMENTO */
 header {
-  height: 67.9rem;
   text-align: center;
-  display: table;
 }
 
 /* CONFIGURAÇÃO DA IMAGEM DO ASTRONAUTA */
-.astronaut_img {
+.astronaut .astronaut_img {
   width: 36.4rem;
   height: auto;
-  padding: 0px 33px;
+  margin: 0px 33px 16px 33px;
+
 }
 
 /* CONFIGURAÇÃO DO TÍTULO */
-h1 {
+ h1 {
   padding-top: 16px;
   color: var(--color-base-pink);
   font-size: 32px;
@@ -50,7 +46,7 @@ h1 {
 }
 
 /* CONFIGURAÇÃO DO PARÁGRAFO */
-p {
+ p {
   color: var(--color-base-purple);
   padding-top: 5px;
   font-size: 20px;
@@ -59,27 +55,37 @@ p {
 }
 
 /* CONFIGURAÇÃO DE POSICIONAMENTO DA SETA */
-.downArrow {
-  width: 60px;
-  height: auto;
-  margin: 36px 186px 94px 186px;
+.hero-cta .downArrow {
+  width: 58px;
+  height: 105px;
+  border-radius: 76rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  transition: filter 300ms;
+  margin-top: 35px;
+  margin-bottom: 93px;
+}
+
+header .hero-cta .downArrow img {
+  width: 3px;
 }
 
 /* CONFIGURAÇÃO DA MAIN */
 main {
   background-color: var(--color-base-bg-main);
-  /* GPT - modificações 
-  padding: 0 20px; /* Adicionando padding para espaçamento nas laterais */
 }
 
 /* CONFIGURAÇÃO DO CONTEÚDO DA MAIN*/
 .card-container {
-  display: grid;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   grid-template-columns: 1fr;
-  padding: 52px 40px 56px;
-  /*GPT - modificações
-  padding: 52px 0 56px; /* Ajustando o padding para tamanhos de tela menores */
+  padding: 52px 40px;
   gap: 50px;
+  
 }
 
 /* CONFIGURAÇÃO DOS CARDS */
@@ -90,11 +96,6 @@ main {
   border-radius: 20px;
   background-color: var(--color-base-bg);
   width: 352px;
-  /*GPT - modificações
-  max-width: 352px; /* Largura máxima do card 
-  margin: 0 auto;  Centralizando o card na página */
-  
-
 }
 
 /* CONFIGURAÇÃO DAS IMAGENS | CARDS */
@@ -122,6 +123,11 @@ main {
   font-weight: 600;
   font-size: 16px;
   color: var(--color-base-purple);
+}
+
+.my-form {
+  margin: 0 auto;
+  width: 50%;
 }
 
 /* CONFIGURAÇÃO DO FORMS */
@@ -210,12 +216,17 @@ button:hover {
 }
 
 /* CONFIGURAÇÃO DO RODAPÉ */
+
+footer {
+  width: 100%;
+  background-color: var(--color-base-bg-main);
+}
+
 footer P {
   height: 78px;
   font-size: 20px;
   font-weight: 600;
   color: var(--color-base-white);
-  background-color: var(--color-base-bg-main);
   text-align: center;
   padding: 32px 16px;
  
@@ -228,14 +239,14 @@ footer P {
   animation: move 2s infinite;
 
 } 
-
+/*
 @keyframes move {
   from {
     transform: translateY(var(--startY));
   }
 }
 
-/* TESTES | ANIMATION CSS*/
+/* TESTES | ANIMATION CSS*
 
 
 @keyframes typewriter {
@@ -248,17 +259,17 @@ footer P {
 }
 
 .typewriter {
-  overflow: hidden; /* Ensures the content is not revealed until the animation */
-  border-right: .12em solid orange; /* The typwriter cursor */
-  white-space: nowrap; /* Keeps the content on a single line */
-  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-  letter-spacing: .15em; /* Adjust as needed */
+  overflow: hidden; /* Ensures the content is not revealed until the animation *
+  border-right: .12em solid orange; /* The typwriter cursor *
+  white-space: nowrap; /* Keeps the content on a single line *
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens *
+  letter-spacing: .15em; /* Adjust as needed *
   animation:
     typewriter 2s steps(40, end),
     blink-caret .5s step-end infinite;
 }
 
-/* The typing effect */
+/* The typing effect *
 @keyframes typewriter {
   from {
     width: 0;
@@ -268,7 +279,7 @@ footer P {
   }
 }
 
-/* The typewriter cursor effect */
+/* The typewriter cursor effect *
 @keyframes blink-caret {
   from,
   to {
@@ -280,44 +291,44 @@ footer P {
 }
 
 /* MEDIA QUERIES */
-@media (min-width: 1024px) {
+@media (min-width: 1440px) {
 
-  /* CONFIGURAÇÃO DE POSICIONAMENTO */
-  header {
-    height: 83.6rem;
-    display: flex;
-  }
-
-  /* CONFIGURAÇÃO DA IMAGEM DO ASTRONAUTA */
-  .astronaut_img {
-    width: 73.2rem;
-    height: auto;
-    margin: 0px 30px 0px 0px;
-  }
-
-  /* CONFIGURAÇÃO DO TÍTULO */
   h1 {
-    padding-top: 312px;
     font-size: 58px;
+    line-height: 7.3rem;
+    margin: 0;
     line-height: normal;
-    position: relative;
+    margin-bottom: 8px;
+  } 
 
-    height: 73px;
-    width: 554px;
+  /* header section */
+  header {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 2.9rem 10.3rem 10.9rem;
+    max-height: 83.6rem;
   }
 
-  /* CONFIGURAÇÃO DO PARÁGRAFO */
-  p {
+  header .hero-cta {
+    order: 1; /* Flexbox item property: https://developer.mozilla.org/pt-BR/docs/Learn/CSS/CSS_layout/Flexbox#ordena%C3%A7%C3%A3o_de_elementos_flex */
+    margin-top: 31.2rem;
+  }
+
+  header .astronaut {
+    order: 2;
+  }
+
+  header .hero-cta p {
     font-size: 32px;
-
-    height: 23px;
-    width: 530px;
+    line-height: normal;
+    margin-bottom: 179px;
+    text-align: justify;
   }
 
-  /* CONFIGURAÇÃO DE POSICIONAMENTO DA SETA */
-  .downArrow {
-    width: 58px;
-    height: 105px;
-    margin: 180px 523px 136px 109px;
+  header .hero-cta .downArrow {
+    margin: 0;
+    justify-self: flex-end;
   }
+
+    
 }
