@@ -20,7 +20,7 @@
 <br>
 
 <p align="center">
-  <img alt="Preview do Projeto" src="./src/assets/preview/Spotify.png" width="100%">
+  <img alt="Preview do Projeto" src="./src/assets/preview.svg" width="100%">
 </p>
 
 <br/>
@@ -44,9 +44,6 @@ Este projeto foi desenvolvido com as seguintes linguagens, tecnologias e ferrame
   O desafio envolve o máximo de conteúdo visto nos stages iniciais ( 1-4 ), para que possamos revisar e identificar como anda o nosso aprendizado
   e se podemos avançar para o próximo módul, de acordo com as dificuldades encontradas e com base no desempenho geral ao desenvolver  o site.
 </p>
-
-<a href="https://pabloperdigao.github.io/Spotify-I-Alura/"></a>
-
 
 <br>
 
