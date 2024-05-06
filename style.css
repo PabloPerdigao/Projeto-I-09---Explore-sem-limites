@@ -223,10 +223,10 @@ button:hover {
 footer {
   width: 100%;
   background-color: var(--color-base-bg-main);
-  height: 78px;
 }
 
 footer P {
+  height: 78px;
   font-size: 20px;
   font-weight: 600;
   color: var(--color-base-white);
