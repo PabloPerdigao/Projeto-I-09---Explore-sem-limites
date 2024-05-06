@@ -20,7 +20,7 @@
 <br>
 
 <p align="center">
-  <img alt="Preview do Projeto" src="./src/assets/preview.svg" width="100%">
+  <img alt="Preview do Projeto" src="./assests/preview.svg" width="100%">
 </p>
 
 <br/>
